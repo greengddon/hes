@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(209, 209, 209);
+            font-family: "맑은 고딕", sans-serif
+        }
+
+        .header{
+            background-color: rgb(212, 199, 175);
+            color: white;
+            padding: 30px;/* 안쪽여백 */
+            text-align: center;
+        }
+
+        .menu {
+            background-color: palevioletred;
+            padding: 20px;/* 박스 안쪽여백 */
+            text-align: center;
+            /* 메뉴 박스에 대하여 */
+        }
+        .menu a{
+            color: #333;/* 링크한 문자에 컬러 변경하기 */
+            text-decoration: none;/* 링크한 문자에 밑줄 없애기 */
+            margin: 20px;
+        }/* 메뉴 박스 안에 있는 링크 a에 대하여 */
+
+        .menu a:hover{/* 마우스를 올렸을 때 색이 변하는 액션 */
+            color:beige
+        }
+
+        .content{
+            max-width: 1200px;
+            margin: 30px auto;/* 위아래는 30px, 좌우는 가운데정렬 */
+            padding: 30px;
+            background-color: white;
+            text-align: center;
+
+        }
+        .content img{
+            width: 100%;/* 이미지 사이즈 위 콘텐츠박스 크기 맞춰서 100% 채우기 */
+        }
+        .button{
+            display: inline-block;/* 문자 외형을 박스로 인식해라!!! */
+            background-color: #333;/* 박스배경색 333색 */
+            color: white;/* 박스 안에 문자는 흰색 */
+            padding: 12px 30px;/* 박스 안에 여백 주어 문자 여유있게 보이도록 설정 */
+            text-decoration: none;/* 링크상 생기는 밑줄 없애기! */
+        }
+        .button:hover{
+            background-color: olivedrab;/* 마우스를 hover하면 올리브색이 되어라~~ */
+        }
+        .footer{
+            background-color: cadetblue;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>my web page</h1>
+        <p>나의 첫 번째 웹페이지입니다.</p>
+    </div>
+
+    <div class="menu">
+        <a href="https://heyzine.com/flip-book/c29e5d9733.html" target="_blank">헤이진</a>
+        <a href="https://greengddon.github.io/hes/" target="_blank">깃허브</a>
+        <a href="">pdf</a>
+    </div>
+
+    <div class="content">
+        <h2>안녕하세요!</h2>
+        <p>한은서의 포트폴리오 페이지입니다.</p>
+        <img src="img/b.jpg" alt="홈페이지 대문이미지 입니다.">
+        <a href="https://heyzine.com/flip-book/c29e5d9733.html" target="_blank" class="button">바로가기</a>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2026. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
